@@ -3,11 +3,15 @@
   "version": "0.0.1",
   "description": "Game for share bowl performance with friends",
   "author": "Jorge Zapata <jorge.zapata@jazg.net>",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/alimnios72/pinpals"
+  },
+  "license": "GPL-3.0",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-mocha": "^3.0.1",
     "gulp-jsdoc3": "^0.3.0",
-    "mocha": "^2.5.3",
-    "chai": "^3.4.2"
+    "gulp-jshint": "^2.0.1",
+    "jshint": "^2.9.3"
   }
 }
