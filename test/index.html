@@ -6,14 +6,14 @@
     <link rel="stylesheet" href="../bower_components/mocha/mocha.css" />
 </head>
 <body>
-<div id="mocha"></div>
-<script src="../bower_components/chai/chai.js"></script>
-<script src="../bower_components/mocha/mocha.js"></script>
-<script src="../js/functions.js"></script>
-<script>mocha.setup('tdd')</script>
-<script src="test.js"></script>
-<script>
-    mocha.run();
-</script>
+    <div id="mocha"></div>
+    <script src="../bower_components/mocha/mocha.js"></script>
+    <script src="../bower_components/chai/chai.js"></script>
+    <script src="../app/src/modules/game.js"></script>
+    <script>mocha.setup('bdd')</script>
+    <script src="test_Game.js"></script>
+    <script>
+        mocha.run();
+    </script>
 </body>
 </html>

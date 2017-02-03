@@ -1,10 +1,13 @@
+"use strict";
+
 /**
- * Keeps track of player's throws and scoring
+ * This class calculates the score of each frame in a user's game.
+ * It will work only for ten-pin bowling.
  * @class Game
  */
-var Game = function (max) {
+var Game = function () {
   var currentScore = 0;
-  var maxFrames = max || 10;
+  var maxFrames = 10;
   var frames = [];
   var currentFrame = 1;
   var stack = [];
